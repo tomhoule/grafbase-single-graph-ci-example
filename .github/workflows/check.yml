@@ -17,7 +17,7 @@ jobs:
       - id: introspect-step
         run: |
           echo 'schema<<###EOF###' >> $GITHUB_OUTPUT
-          cat ./schema.graphql >> $GITHUB_OUTPUT
+          cat ./sdl.graphql >> $GITHUB_OUTPUT
           echo '###EOF###' >> $GITHUB_OUTPUT
 
       - uses: tomhoule/grafbase-schema-check-action@main
