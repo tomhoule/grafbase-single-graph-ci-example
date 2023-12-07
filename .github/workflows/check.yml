@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "what is happening here?"
-      - uses: tomhoule/grafbase-schema-check-action
+      - uses: tomhoule/grafbase-schema-check-action@main
