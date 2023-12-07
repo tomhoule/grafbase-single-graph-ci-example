@@ -6,6 +6,8 @@ on:
 
 jobs:
   schema-check:
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - run: echo "what is happening here?"
       - uses: tomhoule/grafbase-schema-check-action
