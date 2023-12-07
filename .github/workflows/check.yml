@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: tomhoule/grafbase-schema-check-action@main
         with:
-          grafbase_access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDE5NTk2MDYsImlzcyI6ImdyYWZiYXNlIiwiYXVkIjoiMDFISDJBWktNVlQ1MEpYRzhWSjRXWTFZUzEiLCJqdGkiOiIwMUhIMkI1N1NQMzVLR05WNlpZRVM0Vk5IWSIsImVudiI6InByZXZpZXciLCJwdXJwb3NlIjoicHJvamVjdC1hcGkta2V5In0.zOFvH8_sITpO3M3qWqk1ne7FGFXQTAKRHrT4TnH64lU
+          grafbase_access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDE5NjAwODcsImlzcyI6ImdyYWZiYXNlIiwianRpIjoiMDFISDJCS1hUU0dLMTRHUzBGNldITVJGQkEiLCJzdWIiOiIwMUhDTVg0SFA5NUtaSE03NDdaRUhGMTk0WiIsInB1cnBvc2UiOiJhY2Nlc3MtdG9rZW4ifQ.3oR63GNedbI5Y2slSgA4O_AVDDv-kdf_yivAOuBE4ug
           project_ref: tomhoule/grafbase-single-graph-ci-example@main
