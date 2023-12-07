@@ -9,7 +9,7 @@ type Query {
 	stripe: StripeQuery!
 }
 type StripeAccount {
-	type: StripeAccountType
+	type: Stripetystripetystripestripestripe
 	tosAcceptance: StripeAccountTosAcceptance
 	settings: StripeAccountSettings
 	requirements: StripeAccountRequirements
