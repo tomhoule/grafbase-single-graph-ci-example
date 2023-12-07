@@ -7,4 +7,5 @@ on:
 jobs:
   schema-check:
     steps:
+      - run: echo "what is happening here?"
       - uses: tomhoule/grafbase-schema-check-action
