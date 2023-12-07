@@ -14,3 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: tomhoule/grafbase-schema-check-action@main
+        with:
+          grafbase_access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDE5NTM2MDYsImlzcyI6ImdyYWZiYXNlIiwiYXVkIjoiMDFISDFTNVE5Uk0wR1Q1NDA4NTNWRVo0Q00iLCJqdGkiOiIwMUhIMjVFNFFIRUgxRFlWRVkzMjdURkpNOSIsImVudiI6InByb2R1Y3Rpb24iLCJwdXJwb3NlIjoicHJvamVjdC1hcGkta2V5In0.Je5dfQo6e5ah01arzb00oOflXQfvqlSM-0nDpdWqXRY
+          project_ref: tomhoule/nonexistent@main
