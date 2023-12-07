@@ -12,6 +12,6 @@ jobs:
 
       - uses: tomhoule/grafbase-schema-check-action@main
         with:
-          grafbase_access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDE5NjAwODcsImlzcyI6ImdyYWZiYXNlIiwianRpIjoiMDFISDJCS1hUU0dLMTRHUzBGNldITVJGQkEiLCJzdWIiOiIwMUhDTVg0SFA5NUtaSE03NDdaRUhGMTk0WiIsInB1cnBvc2UiOiJhY2Nlc3MtdG9rZW4ifQ.3oR63GNedbI5Y2slSgA4O_AVDDv-kdf_yivAOuBE4ug
+          grafbase_access_token: TODO
           project_ref: tomhoule/grafbase-single-graph-ci-example@main
           schema_path: ./sdl.graphql
