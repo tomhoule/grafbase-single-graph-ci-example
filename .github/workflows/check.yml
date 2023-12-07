@@ -12,6 +12,5 @@ jobs:
   schema-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: echo "what is happening here?"
+      - uses: actions/checkout@v3
       - uses: tomhoule/grafbase-schema-check-action@main
