@@ -1,6 +1,3 @@
-Warning: Found both grafbase.config.ts and schema.graphql files
-Hint: Delete one of them to avoid conflicts
-
 """
 A JSON Value
 """
