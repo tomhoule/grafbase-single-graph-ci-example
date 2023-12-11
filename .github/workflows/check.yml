@@ -6,5 +6,17 @@ on:
 
 jobs:
   schema-check:
+    runs-on: ubuntu-latest
     steps:
-      - uses: tomhoule/grafbase-schema-check-action
+      - uses: actions/checkout@v3
+
+      - run: |
+        docker-compose down
+        docker-compose up
+        npx -y grafbase introspect --dev > sdl.graphql
+
+      - uses: tomhoule/grafbase-schema-check-action@main
+        with:
+          grafbase_access_token: ${{ secrets.GRAFBASE_ACCESS_TOKEN }}
+          project_ref: tomhoule/grafbase-single-graph-ci-example@main
+          schema_path: ./sdl.graphql
